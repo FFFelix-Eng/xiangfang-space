@@ -1,0 +1,61 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+
+    background-color: #2d2d2d;
+    background-image: url('./imgs/dominos.svg');
+    background-repeat: repeat;
+    background-size: 25% auto;
+    background-position: top left;
+}
+
+.container {
+    min-height: 100vh;
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    background-color: #181918;
+    color: rgb(219, 219, 219)
+}
+
+a {
+    color: #a0e4ff;
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; 
+    border: 3px solid white; 
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); 
+    display: block;
+    margin: 1rem auto; 
+  }
+  
+
+  .home-button {
+    position: fixed;
+    top: 16px;
+    left: 16px;
+    padding: 8px 16px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #2d2d2d;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    transition: background-color 0.2s ease;
+  }
+  
+  .home-button:hover {
+    background-color: white; /* 鼠标移上去时的样式 */
+  }
